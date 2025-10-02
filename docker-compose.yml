@@ -1,0 +1,9 @@
+services:
+  calc-api:
+    build: .
+    image: calc-api:latest
+    container_name: calc-api
+    ports:
+    - "3000:3000"
+    environment:
+    - PORT=3000
