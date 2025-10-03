@@ -4,7 +4,7 @@ import { add, sub, mul, div } from '../src/math.js';
 
 describe('math', () => {
     it('add', () => {
-        expect(add(2, 3)).toBe(5);
+        expect(add(3, 3)).toBe(6);
     });
     it('sub', () => {
         expect(sub(5, 3)).toBe(2);
