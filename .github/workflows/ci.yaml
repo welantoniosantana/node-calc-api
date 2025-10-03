@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - develop
-
+      
 permissions:
   contents: read # Allow read access to repository contents
 
