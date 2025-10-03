@@ -9,7 +9,7 @@ permissions:
   contents: read # Allow read access to repository contents
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
